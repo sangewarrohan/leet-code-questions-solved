@@ -1,0 +1,21 @@
+# Problem: 74. Search a 2D Matrix
+# Runtime: 0 ms (Beats 100.00%)
+# Memory: 12.7 MB (Beats 32.39%)
+
+class Solution(object):
+    def searchMatrix(self, matrix, target):
+        m = len(matrix)
+        n = len(matrix[0])
+        left = 0
+        right = m * n - 1
+        while left <= right:
+            mid = left + (right - left) // 2
+            row = mid // n
+            col = mid % n
+            if matrix[row][col] == target:
+                return True
+            elif matrix[row][col] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+        return False
