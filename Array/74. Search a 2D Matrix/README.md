@@ -4,8 +4,8 @@
 **Topics:** `Array`, `Binary Search`, `Matrix`
 
 ### 🚀 Performance
-- **Runtime:** `0 ms` (Beats `100.00%` of users)
-- **Memory:** `12.6 MB` (Beats `68.25%` of users)
+- **Runtime:** `7 ms` (Beats `0.40%` of users)
+- **Memory:** `12.5 MB` (Beats `68.25%` of users)
 
 ### 📝 Problem Description
 
