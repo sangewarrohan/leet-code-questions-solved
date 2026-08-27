@@ -1,9 +1,9 @@
 # Problem: 344. Reverse String
-# Runtime: 1 ms (Beats 57.44%)
-# Memory: 23.4 MB (Beats 81.05%)
+# Runtime: 5 ms (Beats 25.18%)
+# Memory: 19.8 MB (Beats 76.53%)
 
-class Solution:
-    def reverseString(self, s: List[str]) -> None:
+class Solution(object):
+    def reverseString(self, s):
         i = 0
         j = len(s) - 1
 
@@ -12,3 +12,4 @@ class Solution:
 
             i = i + 1
             j = j - 1
+        
