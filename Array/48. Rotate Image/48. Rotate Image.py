@@ -1,9 +1,9 @@
 # Problem: 48. Rotate Image
 # Runtime: 0 ms (Beats 100.00%)
-# Memory: 19.4 MB (Beats 28.81%)
+# Memory: 12.3 MB (Beats 60.78%)
 
-class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+class Solution(object):
+    def rotate(self, matrix):
         n=len(matrix)
         for i in range(n):
             for j in range(i):
