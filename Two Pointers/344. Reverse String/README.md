@@ -4,8 +4,8 @@
 **Topics:** `Two Pointers`, `String`
 
 ### 🚀 Performance
-- **Runtime:** `1 ms` (Beats `57.44%` of users)
-- **Memory:** `23.4 MB` (Beats `81.05%` of users)
+- **Runtime:** `5 ms` (Beats `25.18%` of users)
+- **Memory:** `19.8 MB` (Beats `76.53%` of users)
 
 ### 📝 Problem Description
 
